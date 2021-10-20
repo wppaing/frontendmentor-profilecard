@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Dark-cyan);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.child{
+    width: 370px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.card-bg-img{
+    width: 100%;
+}
+.profile-image{
+    margin-top: -53px;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    flex-direction: column;
+}
+.name h1{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.name p{
+    margin-top: 10px;
+}
+.stats{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
